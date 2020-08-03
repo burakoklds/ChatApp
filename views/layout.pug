@@ -1,10 +1,11 @@
-doctype html
-html
+doctype html 
+html(ng-app="chatdad")
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    block stylesheets
+      link(rel='stylesheet', href='/stylesheets/style.css')
   body
-    div(ng-app="chatdad", ng-cloak)
+    div(ng-cloak)
     block content
 
 
