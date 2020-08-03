@@ -6,12 +6,16 @@ var logger = require('morgan');
 var dotenv = require('dotenv');
 dotenv.config();
 
-console.log(process.env.name);
+console.log(process.env.DB_STRING);
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 var app = express();
+
+const db = require('./helpers/db')();
+
+console.log(db);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
