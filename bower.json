@@ -1,0 +1,17 @@
+{
+  "name": "chatapp",
+  "description": "",
+  "main": "",
+  "authors": [
+    "burakoklds <burak_ld@hotmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "chat",
+    "nodejs"
+  ],
+  "homepage": "https://github.com/burakoklds/ChatApp",
+  "dependencies": {
+    "angular": "^1.8.0"
+  }
+}
